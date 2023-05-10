@@ -1,1 +1,6 @@
 <h1>Shoes</h1>
+<% @shoes.each do |shoe| %>
+  <h3><%= shoe.name %></h3>
+  <p>Shoe Size: <%= shoe.size %></p>
+  <p>Shoe Color: <%= shoe.color %></p>
+<% end %>
