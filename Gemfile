@@ -54,10 +54,10 @@ group :development, :test do
   gem "pry"
   gem "rspec-rails"
   gem "simplecov"
-  gem 'capybara'
-  gem 'launchy'
-  gem 'shoulda-matchers', '~> 3.1'
-  gem 'orderly'
+  gem "capybara"
+  gem "launchy"
+  gem "shoulda-matchers", "~> 3.1"
+  gem "orderly"
 end
 
 group :development do
